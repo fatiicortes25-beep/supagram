@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Post } from "../mocks/posts";
 import HeartIcon from "./Heartlcon";
 import { getTimeAgo } from "../utils/time";
+import { Post } from "../types";
 
 export default function Modal({
   post,
